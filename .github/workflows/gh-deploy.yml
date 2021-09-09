@@ -12,5 +12,8 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-material mike
+      - run: git config user.name ci-bot
+      - run: git config user.email ci-bot@bobek.cz
+      - run: git fetch origin gh-pages --depth=1
       - run: mike deploy --push main
 
