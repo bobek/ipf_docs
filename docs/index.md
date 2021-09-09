@@ -4,6 +4,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
  - added to a new version
  - just another update
+ - `dev` update
 
 ## Commands
 
