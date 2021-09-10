@@ -1,9 +1,19 @@
-site_name: IPFabric
+site_name: IP Fabric
+copyright: <a href="https://ipfabric.io">IPFabric</a>
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
   features:
+    - navigation.tabs
     - search.suggest
     - search.highlight
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.snippets
+  - pymdownx.superfences:
 
 extra:
   version:
