@@ -1,4 +1,4 @@
-# 01 -- Configure Credentials
+# 01 - Configure Credentials
 
 Network infrastructure credentials are stored in **Settings → Authentication**. These credentials use IP Fabric to access the CLI of the network devices. Read-only (privilege level 1) credentials are sufficient for the discovery.
 

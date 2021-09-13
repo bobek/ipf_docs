@@ -1,4 +1,4 @@
-# 05 -- Site Separation
+# 05 - Site Separation
 
 The site represents a separate collection of devices. A site can be a branch, a factory, a production floor, a campus, or anything that might represent a logical group for a user.
 
