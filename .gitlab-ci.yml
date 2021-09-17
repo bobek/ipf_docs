@@ -4,8 +4,9 @@ pages:
   only:
     - gh-pages
   script:
-    - mkdir public
-    - rsync -Cavuzb --exclude 'public' . public/
+    - mkdir .public
+    - cp -ra * .public/
+    - mv .public public
   artifacts:
     paths:
       - public
